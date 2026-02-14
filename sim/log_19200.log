@@ -29,7 +29,6 @@
 # Loading work.uart_top(fast)
 # Loading work.uart_tx(fast)
 # Loading work.uart_rx(fast)
-# Loading /home/jsphtkn/intelFPGA/23.1std/questa_fse/uvm-1.1d/linux_x86_64/uvm_dpi.so
 # run -all
 # ----------------------------------------------------------------
 # UVM-1.1d
@@ -376,7 +375,5 @@
 # [TEST]     2
 # [TEST_DONE]     1
 # [UART_DRV]    60
-# ** Note: $finish    : /home/jsphtkn/intelFPGA/23.1std/questa_fse/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+# ** Note: $finish    
 #    Time: 31282845 ns  Iteration: 54  Instance: /tb_top
-# End time: 17:23:46 on Feb 14,2026, Elapsed time: 0:00:22
-# Errors: 0, Warnings: 1

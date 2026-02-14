@@ -13,8 +13,11 @@ A robust, parameterizable **UVM 1.2** verification environment designed to valid
 
 The environment verifies a cross-connected UART RX/TX pair (based on the [Nandland](https://nandland.com/uart-serial-port-module/) architecture). It utilizes a high-level UVM testbench to drive stimuli and monitor responses through a SystemVerilog Interface.
 
-![UART UVM Topology](docs/uvm_uart_topo.jpg)
-*Figure 1: UVM Testbench Hierarchy and RTL Connectivity.*
+<div align="center">
+  <img src="docs/uvm_uart_topo.jpg" alt="UART UVM Topology" width="800">
+  <br>
+  <b>Figure 1: UVM Testbench Hierarchy and RTL Connectivity</b>
+</div>
 
 ### **Core Components:**
 * **Parameterized Top:** Allows for dynamic baud rate switching via `CLKS_PER_BIT`.
